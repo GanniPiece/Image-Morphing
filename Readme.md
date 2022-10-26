@@ -6,7 +6,7 @@
 
 ## Description
 
-In this homework, we are asked to implement the algorithm from [1]. The feature-based image metamorphosis needs pre-defined feature lines for image morphing. The approach gives the animator high-level control of the visual effect by providing natural feature-based specification and interaction. 
+In this homework, we are asked to implement the algorithm from the paper[^1]. The feature-based image metamorphosis needs pre-defined feature lines for image morphing. The approach gives the animator high-level control of the visual effect by providing natural feature-based specification and interaction. 
 
 
 
@@ -25,7 +25,7 @@ We could further explain the procedure by Fig. 1. For these two feature lines in
 
 |                   Fig 1. Single line pair                    |
 | :----------------------------------------------------------: |
-| ![SinglePairLine](/Users/popo/Desktop/phd-fall2021/openGL/Hw2/Fig/SinglePairLine.png) |
+| ![SinglePairLine](./Fig/SinglePairLine.png) |
 
 $$
 u = \frac{(X-P)\cdot(Q-P)}{\norm{Q-P}^2}
@@ -66,14 +66,14 @@ For each pixel X in the destination
 
 4. GUI application
 
-   ![Slide1](/Users/popo/Desktop/phd-fall2021/openGL/Hw2/Fig/Presentation2/Slide1.png)
+   ![Slide1](./Fig/Presentation2/Slide1.png)
 
 5. click `Draw` button for feature line(s) drawing. A new window would open after clicked. Follow the instructions to draw the line.
 
-   ![Slide2](/Users/popo/Desktop/phd-fall2021/openGL/Hw2/Fig/Presentation2/Slide2.png)
+   ![Slide2](./Fig/Presentation2/Slide2.png)
 
-6. You can modify the configuration parameters and then clicked `warping` button  for displaying the following results.![Slide3](/Users/popo/Desktop/phd-fall2021/openGL/Hw2/Fig/Presentation2/Slide3.png)
+6. You can modify the configuration parameters and then clicked `warping` button  for displaying the following results.![Slide3](./Fig/Presentation2/Slide3.png)
 
 ## Reference
 
-[1] Beier, Thaddeus, and Shawn Neely. "Feature-based image metamorphosis." *ACM SIGGRAPH computer graphics* 26.2 (1992): 35-42.
+[^1] Beier, Thaddeus, and Shawn Neely. "Feature-based image metamorphosis." *ACM SIGGRAPH computer graphics* 26.2 (1992): 35-42.
